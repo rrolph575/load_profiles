@@ -1,1 +1,1 @@
-# load_profiles
+# Describes the different load profile options in [ReEDS model](https://github.com/ReEDS-Model/ReEDS).
