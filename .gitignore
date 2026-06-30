@@ -1,0 +1,10 @@
+# Large data files — do NOT commit (downloaded from Zenodo, ~365 MB)
+data/
+*.h5
+
+# Build artifacts (regenerated from the .md by tools/build_pdf.py)
+*.html
+
+# Python
+__pycache__/
+*.pyc
