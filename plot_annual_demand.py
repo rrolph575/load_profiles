@@ -62,6 +62,7 @@ def main():
         ax.plot(yrs, mean, "-o", color=c, lw=2, label=label)
         print(f"{label:20s} " + "  ".join(f"{y}:{m:6.0f}" for y, m in zip(yrs, mean)))
 
+    ax.set_ylim(bottom=0)
     ax.set_xlabel("ReEDS model year")
     ax.set_ylabel("National annual electricity demand (TWh/yr)")
     ax.set_title("Gross end-use electricity demand, contiguous US\n"
